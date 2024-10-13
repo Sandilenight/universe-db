@@ -71,3 +71,8 @@ CREATE TABLE asteroid (
 INSERT INTO asteroid (name, size_km, near_earth, planet_id) VALUES
 ('Ceres', 939, FALSE, 1),
 ('Vesta', 525, TRUE, 2);
+
+INSERT INTO planet (name, star_id, mass_kg, radius_km, rings) VALUES
+('Jupiter', 1, 1.898E27, 69911, TRUE),
+('Saturn', 1, 5.683E26, 58232, TRUE),
+('Neptune', 1, 1.024E26, 24622, FALSE);
