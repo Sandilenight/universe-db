@@ -76,3 +76,8 @@ INSERT INTO planet (name, star_id, mass_kg, radius_km, rings) VALUES
 ('Jupiter', 1, 1.898E27, 69911, TRUE),
 ('Saturn', 1, 5.683E26, 58232, TRUE),
 ('Neptune', 1, 1.024E26, 24622, FALSE);
+
+INSERT INTO moon (name, planet_id, diameter_km, volcanic) VALUES
+('Io', 1, 3642, TRUE),
+('Europa', 1, 3121, FALSE),
+('Ganymede', 1, 5262, FALSE);
